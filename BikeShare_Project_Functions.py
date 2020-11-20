@@ -69,7 +69,7 @@ Select Month(s): ")
         #print('Value is {} and Len is {}'.format(value, len(value)))
         if is_int(value) == False:
             clear()
-            print('Ending Program.\nOnly Integers are allowed for months. Invalid value: {}\n'.format(value))
+            print('Ending Program.\nOnly integers are allowed for months. Invalid value: {}\n'.format(value))
             sleep(2)
             s.exit()
             return 'Error'
