@@ -66,14 +66,6 @@ else:
     days = filters[2].split(',')
     stats = filters[3].split(',')
 
-    #print('\nUser Inputs are: {}'.format(filters))
-    #print('\nCity Filters are: {}'.format(cities))
-    #print('\nMonths Filters are: {}'.format(months))
-    #print('\nDays Filters are: {}'.format(days))
-    #print('\nStats Filters are: {}'.format(stats))
-
-
-
 #**************************************************************
 # Load data into DataFrame
 #**************************************************************
@@ -323,7 +315,7 @@ if any(x in stats for x in [str(0), str(4)]):
 
 # Add a line return after displaying stats
 print('\n')
- 
+
 
 # *****************************************************************************
 # Display raw data if requested by user
