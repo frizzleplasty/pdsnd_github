@@ -323,7 +323,7 @@ if any(x in stats for x in [str(0), str(4)]):
 
 # Add a line return after displaying stats
 print('\n')
- 
+
 
 # *****************************************************************************
 # Display raw data if requested by user
@@ -339,4 +339,6 @@ while f.display_raw_data() is True:
 
 # Add some line returns after program completes
 print('\n\n')
+# *****************************************************************************
+# End code
 # *****************************************************************************
